@@ -1,1 +1,11 @@
+tensorflow>=2.9.0
+keras>=2.9.0
+matplotlib
+opencv-python
+kaggle
 
+Explanation:
+-> tensorflow and keras: You’re using TensorFlow and Keras for building and training the CNN.
+-> matplotlib: Used for plotting accuracy and loss graphs.
+-> opencv-python: Used to read and resize test images (cv2.imread()).
+-> kaggle: Required to download the dataset using the Kaggle API.
