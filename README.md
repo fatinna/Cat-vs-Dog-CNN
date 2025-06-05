@@ -28,7 +28,7 @@ The model is a simple CNN with:
 
 - Optimizer: `Adam`
 - Loss: `BinaryCrossentropy`
-- Epochs: `10`
+- Epochs: `25`
 - Batch Size: `32`
 - Image Size: `256x256`
 - Dataset normalized to range [0, 1]
