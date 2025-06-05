@@ -33,9 +33,17 @@ The model is a simple CNN with:
 - Image Size: `256x256`
 - Dataset normalized to range [0, 1]
 
-## 📊 Training & Validation Accuracy
+## Model Performance
 
-The model was trained for 10 epochs. Below are sample plots of training and validation performance:
+The CNN was trained for 25 epochs with early stopping based on validation loss.
+
+| Epoch | Training Accuracy | Validation Accuracy | Training Loss | Validation Loss |
+|-------|-------------------|---------------------|---------------|-----------------|
+| 14    | 95.42%            | 84.13%              | 0.1122        | 0.4723          |
+
+Final test accuracy achieved: **83.66%**
+
+This shows the model is learning well and generalizes reasonably to unseen data.
 
 ### Accuracy
 
